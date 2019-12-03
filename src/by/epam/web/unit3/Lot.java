@@ -1,26 +1,34 @@
 package by.epam.web.unit3;
 
 import java.util.Objects;
+import java.util.concurrent.atomic.AtomicLong;
+
 
 public class Lot {
     private String name;
-    private int price;
+    private AtomicLong price;
+    private AtomicLong startPrice;
 
-    public Lot(String name, int price) {
+    public Lot(String name, AtomicLong price) {
         this.name = name;
         this.price = price;
+        startPrice = price;
     }
 
     public String getName() {
         return name;
     }
 
-    public int getPrice() {
+    public AtomicLong getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(AtomicLong price) {
         this.price = price;
+    }
+
+    public AtomicLong getStartPrice() {
+        return startPrice;
     }
 
     @Override
@@ -28,8 +36,8 @@ public class Lot {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Lot lot = (Lot) o;
-        return Double.compare(lot.getPrice(), getPrice()) == 0 &&
-                Objects.equals(getName(), lot.getName());
+        return Objects.equals(name, lot.name) &&
+                Objects.equals(price, lot.price);
     }
 
     @Override
