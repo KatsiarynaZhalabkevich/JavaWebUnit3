@@ -1,0 +1,55 @@
+20:57:43 INFO  Auction - There are lots for today:
+20:57:43 INFO  Auction - 
+Lot name 1, price=9
+20:57:43 INFO  Auction - 
+Lot name 2, price=10
+20:57:43 INFO  Auction - 
+Lot name 3, price=19
+20:57:43 INFO  Auction - 
+Lot name 4, price=17
+20:57:43 INFO  Auction - 
+Lot name 5, price=13
+20:57:43 INFO  Auction - Играет лот 1
+20:57:43 INFO  Participant - Participant 1 dont't want to make a rate for lot 1
+20:57:43 INFO  Participant - Participant 2 rate  lot 1 from 13 to price  19
+20:57:45 INFO  Participant - Participant 1 dont't want to make a rate for lot 1
+20:57:45 INFO  Participant - Participant 2 rate  lot 1 from 19 to price  28
+20:57:46 INFO  Auction - Текущая цена 28 Начальная цена 9
+20:57:46 INFO  Auction - One two Three...
+20:57:46 INFO  Auction - Lot 1 is sold! 
+20:57:46 INFO  Auction - **************************************
+20:57:46 INFO  Auction - Играет лот 2
+20:57:47 INFO  Participant - Participant 2 rate  lot 2 from 28 to price  42
+20:57:47 INFO  Participant - Participant 1 dont't want to make a rate for lot 2
+20:57:49 INFO  Participant - Participant 2 rate  lot 2 from 42 to price  63
+20:57:49 INFO  Participant - Participant 1 dont't want to make a rate for lot 2
+20:57:49 INFO  Auction - Текущая цена 63 Начальная цена 10
+20:57:49 INFO  Auction - One two Three...
+20:57:49 INFO  Auction - Lot 2 is sold! 
+20:57:49 INFO  Auction - **************************************
+20:57:49 INFO  Auction - Играет лот 3
+20:57:51 INFO  Participant - Participant 2 rate  lot 3 from 63 to price  94
+20:57:51 INFO  Participant - Participant 1 dont't want to make a rate for lot 3
+20:57:52 INFO  Auction - Текущая цена 94 Начальная цена 19
+20:57:52 INFO  Auction - One two Three...
+20:57:52 INFO  Auction - Lot 3 is sold! 
+20:57:52 INFO  Auction - **************************************
+20:57:52 INFO  Auction - Играет лот 4
+20:57:53 INFO  Participant - Participant 2 dont't want to make a rate for lot 4
+20:57:53 INFO  Participant - Participant 1 dont't want to make a rate for lot 4
+20:57:55 INFO  Participant - Participant 2 dont't want to make a rate for lot 4
+20:57:55 INFO  Participant - Participant 1 dont't want to make a rate for lot 4
+20:57:55 INFO  Auction - Текущая цена 94 Начальная цена 17
+20:57:55 INFO  Auction - One two Three...
+20:57:55 INFO  Auction - Lot 4 is sold! 
+20:57:55 INFO  Auction - **************************************
+20:57:55 INFO  Auction - Играет лот 5
+20:57:57 INFO  Participant - Participant 2 dont't want to make a rate for lot 5
+20:57:57 INFO  Participant - Participant 1 dont't want to make a rate for lot 5
+20:57:58 INFO  Auction - Текущая цена 94 Начальная цена 13
+20:57:58 INFO  Auction - One two Three...
+20:57:58 INFO  Auction - Lot 5 is sold! 
+20:57:58 INFO  Auction - **************************************
+20:57:58 INFO  Auction - Auction is closed!
+20:57:59 INFO  Participant - Auction has no lots!!!
+20:57:59 INFO  Participant - Auction has no lots!!!
