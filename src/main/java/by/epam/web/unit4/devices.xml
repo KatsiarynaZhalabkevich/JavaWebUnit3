@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<devices xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation=" http://www.epam.by.web.unit4/deviceXSD.xsd ">
+
+    <device id="1">
+        <name>Процессор Intel Core i9</name>
+        <origin>USA</origin>
+        <price>2740</price>
+        <types>
+            <peripheral>false</peripheral>
+            <use-power>157</use-power>
+            <cooler>true</cooler>
+            <group>system</group>
+            <port>DMI</port>
+        </types>
+        <critical>true</critical>
+
+    </device>
+    <device id="2">
+        <name>Материнская плата ASUS</name>
+        <origin>China</origin>
+        <price>1400</price>
+        <types>
+            <peripheral>false</peripheral>
+            <use-power>157</use-power>
+            <cooler>true</cooler>
+            <group>system</group>
+            <port>USB</port>
+        </types>
+        <critical>true</critical>
+
+    </device>
+    <device id="3">
+        <name>Оперативная память Corsair</name>
+        <origin>China</origin>
+        <price>1098</price>
+        <types>
+            <peripheral>false</peripheral>
+            <use-power>130</use-power>
+            <cooler>true</cooler>
+            <group>system</group>
+            <port>USB</port>
+        </types>
+        <critical>true</critical>
+
+    </device>
+    <device id="4">
+        <name>Принтер Xerox VersaLink</name>
+        <origin>China</origin>
+        <price>2440</price>
+        <types>
+            <peripheral>true</peripheral>
+            <use-power>1200</use-power>
+            <cooler>true</cooler>
+            <group>IO</group>
+            <port>USB</port>
+        </types>
+        <critical>false</critical>
+
+    </device>
+    <device id="5">
+        <name>Принтер Xerox VersaLink</name>
+        <origin>China</origin>
+        <price>2440</price>
+        <types>
+            <peripheral>true</peripheral>
+            <use-power>1200</use-power>
+            <cooler>true</cooler>
+            <group>IO</group>
+            <port>USB</port>
+        </types>
+        <critical>false</critical>
+
+    </device>
+    <device id="6">
+        <name>Принтер Xerox VersaLink</name>
+        <origin>China</origin>
+        <price>2440</price>
+        <types>
+            <peripheral>true</peripheral>
+            <use-power>1200</use-power>
+            <cooler>true</cooler>
+            <group>IO</group>
+            <port>USB</port>
+        </types>
+        <critical>false</critical>
+
+    </device>
+    <device id="7">
+        <name>Принтер Xerox VersaLink</name>
+        <origin>China</origin>
+        <price>2440</price>
+        <types>
+            <peripheral>true</peripheral>
+            <use-power>1200</use-power>
+            <cooler>true</cooler>
+            <group>IO</group>
+            <port>USB</port>
+        </types>
+        <critical>false</critical>
+
+    </device>
+    <device id="8">
+        <name>Принтер Xerox VersaLink</name>
+        <origin>China</origin>
+        <price>2440</price>
+        <types>
+            <peripheral>true</peripheral>
+            <use-power>1200</use-power>
+            <cooler>true</cooler>
+            <group>IO</group>
+            <port>USB</port>
+        </types>
+        <critical>false</critical>
+
+    </device>
+    <device id="9">
+        <name>Принтер Xerox VersaLink</name>
+        <origin>China</origin>
+        <price>2440</price>
+        <types>
+            <peripheral>true</peripheral>
+            <use-power>1200</use-power>
+            <cooler>true</cooler>
+            <group>IO</group>
+            <port>USB</port>
+        </types>
+        <critical>false</critical>
+
+    </device>
+    <device id="10">
+        <name>Принтер Xerox VersaLink</name>
+        <origin>China</origin>
+        <price>2440</price>
+        <types>
+            <peripheral>true</peripheral>
+            <use-power>1200</use-power>
+            <cooler>true</cooler>
+            <group>IO</group>
+            <port>USB</port>
+        </types>
+        <critical>false</critical>
+
+    </device>
+</devices>
+
+        <!--КомпьютерыКомпьютерные комплектующие имеют следующие характеристики:
+        Name – название комплектующего.
+        Origin – страна производства.
+        Price – цена (0 – n рублей).
+        Type (должно быть несколько) – периферийное либо нет, энергопотребление (ватт),
+        наличие кулера (есть либо нет), группа комплектующих (устройства ввода-вывода,
+        мультимедийные), порты (COM, USB, LPT).
+        Critical – критично ли наличие комплектующего для работы компьютера.
+        Корневой элемент назвать Devices.-->
