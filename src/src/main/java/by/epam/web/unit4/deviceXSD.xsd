@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.epam.by.web.unit4/devices.xml"
+ xmlns:tns="http://www.epam.by.web.unit4/devices.xml">
+    <element name="devices">
+        <complexType>
+            <sequence>
+                <element name="device" type="tns:Device" minOccurs="7" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <complexType name="Device">
+        <sequence>
+            <element name="name" type="string"/>
+            <element name="origin" type="string"/>
+            <element name="price" type="int"/>
+            <element name="types">
+                <complexType>
+                    <sequence>
+                        <element name="types" type="tns:Type" />
+                    </sequence>
+                </complexType>
+
+            </element>
+            <element name="critical" type="boolean" default="false"></element>
+        </sequence>
+        <attribute name="id" type="int" use="required"/>
+    </complexType>
+    <complexType name="Type">
+        <sequence>
+            <element name="peripheral" type="boolean" default="false"></element>
+            <element name="usePower" type="int"/>
+            <element name="cooler" type="boolean" default="false"/>
+            <element name="group" type="string"/>
+            <element name="port" type="string"/>
+
+
+        </sequence>
+    </complexType>
+</schema>
+
+<!--<name></name>
+        <origin></origin>
+        <price></price>
+        <types>
+            <type></type>
+            <type></type>
+            <type></type>
+        </types>
+        Type (должно быть несколько) –
+        периферийное либо нет,
+         энергопотребление (ватт),
+    наличие кулера (есть либо нет),
+    группа комплектующих (устройства ввода-вывода,
+    мультимедийные),
+ порты (COM, USB, LPT).
+        <critical></critical>-->
